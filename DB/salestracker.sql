@@ -4,6 +4,7 @@ CREATE DATABASE IF NOT EXISTS salestrackerdb;
 
 
 USE salestrackerdb;
+
 CREATE TABLE CUSTOMER(
 id INTEGER PRIMARY KEY AUTO_INCREMENT,
 firstname VARCHAR(40) NOT NULL,
@@ -13,6 +14,8 @@ create_date DATETIME,
 modify_date DATETIME,
 description TEXT
 );
+
+
 
 
 DROP USER IF EXISTS salestrackerapp@localhost;
